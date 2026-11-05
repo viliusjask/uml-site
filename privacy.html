@@ -17,10 +17,10 @@ a { color: #1a5fb4; }
 <p>The app stores the owner's notes, tasks, reminders and related data on the owner's own phone and PC.</p>
 <h2>Google Drive</h2>
 <p>The app asks for the Google Drive scope <code>drive.file</code>. With it, the app can only see and change files that the app itself created. It cannot read any other file in the owner's Drive. The app uses these files to sync data between the owner's own devices.</p>
-<h2>Other services</h2>
-<p>Some features send the text of a note to an AI model provider chosen by the owner, to sort notes or answer questions. Only the text needed for that request is sent.</p>
+<h2>AI model providers</h2>
+<p>Some features send data to an AI model service chosen by the owner, currently OpenRouter, which passes each request to a model provider such as OpenAI, Anthropic or Google. These features sort and title notes, extract facts from notes, answer questions in the assistant chat, estimate meals from text or photos, and suggest recipes. Depending on the feature, a request can contain note text, stored facts about the owner, chat history, meal descriptions and meal photos. These services process the data under their own privacy terms and may keep it for a limited time.</p>
 <h2>Sharing</h2>
-<p>There is no server run by the app. Data is not sold, shared with third parties, or used for advertising.</p>
+<p>There is no server run by the app. Apart from Google Drive, used for sync, and the AI model services above, data is not sent to anyone. It is never sold or used for advertising.</p>
 <h2>Contact</h2>
 <p>Questions go to the support email shown on the Google sign-in screen of this app.</p>
 <p><a href="index.html">Home</a></p>
